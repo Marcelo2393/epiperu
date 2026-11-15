@@ -6,8 +6,8 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js",
+    "build": "echo 'No build needed'",
+    "start": "tsx src/index.ts",
     "setup": "tsx src/db/setup.ts",
     "sync": "tsx src/scripts/syncNow.ts",
     "test": "vitest run"
