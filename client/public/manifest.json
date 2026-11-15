@@ -1,0 +1,21 @@
+{
+  "name": "EpiPerú – Vigilancia Epidemiológica",
+  "short_name": "EpiPerú",
+  "description": "Vigilancia epidemiológica interactiva del Perú por departamento. Datos abiertos MINSA/CDC Perú.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1d4ed8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "lang": "es-PE",
+  "dir": "ltr",
+  "categories": ["health", "education", "government"]
+}

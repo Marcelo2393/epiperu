@@ -1,0 +1,16 @@
+{
+  "name": "epiperu",
+  "version": "1.0.0",
+  "description": "EpiPerú – Vigilancia Epidemiológica por Departamento",
+  "private": true,
+  "scripts": {
+    "setup": "npm install && npm run --prefix server setup && npm run --prefix client install",
+    "dev": "concurrently --kill-others-on-fail --names \"SERVER,CLIENT\" --prefix-colors \"blue,green\" \"npm run --prefix server dev\" \"npm run --prefix client dev\"",
+    "sync": "npm run --prefix server sync",
+    "test": "npm run --prefix server test && npm run --prefix client test",
+    "build": "npm run --prefix client build && npm run --prefix server build"
+  },
+  "devDependencies": {
+    "concurrently": "8.2.2"
+  }
+}
